@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> V Fit</title>
+</head>
+<style>
+    /* link:focus-visible */
+    /* link:css */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(img/barbell-g07af37d25_1920.jpg);
+        /* width: 25600px; */
+        color: white;
+        /* width:45% */
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        /* border: 2px solid yellow; */
+        display: block;
+        width: 55%;
+        margin: 20px auto;
+
+    }
+
+    .right {
+        /* border: 2px solid green; */
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover {
+
+        text-decoration: underline;
+        color: grey;
+    }
+
+
+
+
+
+    .left img {
+        width: 85px;
+        filter: invert(100%);
+    }
+
+    .btn {
+        color: white;
+        background-color: black;
+        font-size: 20px;
+        border-radius:8px;
+        cursor: pointer;
+        /* width:38%; */
+        padding:6px 6px;
+        margin:2px;
+    }
+
+    .btn:hover {
+        background-color: rgb(238, 228, 228);
+    }
+    .container{
+        /* border: 2px solid  purple; */
+        margin: 78px  34px;
+        padding: 43px;
+        width:50%;
+        border-radius: 2px;
+    }
+    .form-group input{
+         text-align: center;
+         display: block;
+         width: 34%;
+         padding: 6px;
+         border: 2px solid black;
+         margin: 3px auto;
+         border-radius:9px;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    #form{
+        display: block;
+        width: 23%;
+        margin: auto;
+    }
+</style>
+
+
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- logo -->
+            <!-- i am left -->
+            <img src="img/woman-3087521.svg" alt="ab mujhe nhi pta">
+            <div> <b>V Fit</b></div>
+        </div>
+        <div class="mid">
+            <!-- nav bar -->
+            <!-- i am mid -->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right" id="extreme">
+            <!-- buttons -->
+         <!-- i am right -->
+            <!-- <button class="top">Contact Us</button> -->
+ Special Trainer:<button class="btn">VanShika TanWar</button>
+    </header>
+<div class="container">
+<h1>Join the best gym of faridabad</h1>
+<form action="noactin.php">
+       <div class="form-group">
+        <input type="text"name="" placeholder="Enter your Name">
+       </div>
+       <div class="form-group">
+        <input type="text"name="" placeholder="Enter your Age">
+       </div>
+       <div class="form-group">
+        <input type="text"name="" placeholder="Enter your Gender">
+       </div>
+       <div class="form-group">
+        <input type="text"name="" placeholder="Enter your Locality">
+       </div>
+       <button class="btn" id="form">SUBMIT</button>
+</form>
+</div>
+</body>
+
+</html>
